@@ -6,7 +6,6 @@
   "phoneDisplay": "(646) 217-1691",
   "phoneHref": "+16462171691",
   "bio": "I turn high-volume, messy inputs \u2014 leads, budgets, schedules, compliance records \u2014 into standardized systems people can actually track. MBA with hands-on experience across RevOps, athletics administration, and financial operations.",
-  "authorizationBadge": "H-1B Sponsorship Required \u00b7 OPT Available",
   "social": {
     "linkedin": "http://www.linkedin.com/in/giovani-batista",
     "linkedinDisplay": "linkedin.com/in/giovani-batista",
@@ -34,7 +33,6 @@
   "record": [
     { "label": "Location", "value": "Takoma Park, MD" },
     { "label": "Status", "value": "Open to full-time roles" },
-    { "label": "Authorization", "value": "H-1B sponsorship required, OPT available" },
     { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
     { "label": "Focus", "value": "RevOps \u00b7 Analytics \u00b7 Program Ops" }
   ],

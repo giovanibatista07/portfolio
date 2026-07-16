@@ -4,10 +4,10 @@ title: "Giovani Batista — Business Operations & Analytics"
 description: "Giovani Batista — Business Operations & Analytics professional. Pipeline management, RevOps, and reporting systems."
 ---
 
-<section id="top" class="max-w-5xl mx-auto px-6 pt-16 pb-14 grid md:grid-cols-[1.3fr_1fr] gap-12 items-start">
-  <div>
+<section id="top" class="hero max-w-5xl mx-auto px-6 pt-20 pb-16 grid md:grid-cols-[1.25fr_1fr] gap-12 items-start">
+  <div class="hero-copy">
     <p class="eyebrow mb-4">{{ site.role }}</p>
-    <h1 class="font-display text-5xl sm:text-6xl leading-[1.05] mb-6">{{ site.name | replace(" ", "<br/>") | safe }}</h1>
+    <h1 class="font-display text-5xl sm:text-7xl leading-[0.95] mb-7">{{ site.name | replace(" ", "<br/>") | safe }}</h1>
     <p class="text-lg text-inksoft max-w-md leading-relaxed mb-6">{{ site.bio }}</p>
     <div class="mb-7">
       <span class="stamp-badge">{{ site.authorizationBadge }}</span>
@@ -24,11 +24,22 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
     </div>
   </div>
 
-  <div class="record-card p-6 md:mt-4">
+  <div class="record-card data-profile p-6 md:mt-4">
     <p class="eyebrow mb-4 flex items-center justify-between">
-      <span>Personnel Record</span>
-      <span class="text-line">№ 001</span>
+      <span>Data Profile</span>
+      <span class="status-live">Live</span>
     </p>
+    <div class="signal-chart" aria-hidden="true">
+      <span style="--signal: 38%"></span>
+      <span style="--signal: 62%"></span>
+      <span style="--signal: 48%"></span>
+      <span style="--signal: 78%"></span>
+      <span style="--signal: 58%"></span>
+      <span style="--signal: 88%"></span>
+      <span style="--signal: 72%"></span>
+      <span style="--signal: 96%"></span>
+    </div>
+    <p class="chart-label font-mono">Operational signal / 08 dimensions</p>
     {% for field in site.record %}
     <div class="record-row">
       <span class="font-mono text-xs text-inksoft uppercase">{{ field.label }}</span>
@@ -40,7 +51,7 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
 
 <section class="max-w-5xl mx-auto px-6 pb-16 reveal">
   <p class="eyebrow mb-5">Recent figures on record</p>
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="metrics-grid grid grid-cols-2 md:grid-cols-4 gap-4">
     {% for m in site.metrics %}
     <div class="metric-card">
       <div class="metric-num">{{ m.num }}</div>
@@ -95,7 +106,7 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
   <p class="eyebrow mb-2">03 — Work Samples</p>
   <h2 class="font-display text-3xl mb-10">Projects</h2>
 
-  <div class="grid sm:grid-cols-2 gap-6">
+  <div class="projects-grid grid sm:grid-cols-2 gap-6">
     {% for project in site.projects %}
     <a href="{{ project.url }}" target="_blank" rel="noopener" class="record-card p-6 block hover:border-stamp transition-colors">
       <span class="tag mb-3">{{ project.tag }}</span>

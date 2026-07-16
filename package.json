@@ -1,0 +1,19 @@
+{
+  "name": "giovani-batista-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio / CV site built with Eleventy and Tailwind CSS, deployed on Netlify.",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --minify",
+    "watch:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch",
+    "eleventy:serve": "eleventy --serve",
+    "build": "npm run build:css && eleventy",
+    "dev": "concurrently \"npm:watch:css\" \"npm:eleventy:serve\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@tailwindcss/cli": "^4.3.2",
+    "concurrently": "^10.0.3",
+    "tailwindcss": "^4.3.2"
+  }
+}

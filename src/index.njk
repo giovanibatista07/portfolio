@@ -1,0 +1,182 @@
+---
+layout: base.njk
+title: "Giovani Batista — Business Operations & Analytics"
+description: "Giovani Batista — Business Operations & Analytics professional. Pipeline management, RevOps, and reporting systems."
+---
+
+<section id="top" class="max-w-5xl mx-auto px-6 pt-16 pb-14 grid md:grid-cols-[1.3fr_1fr] gap-12 items-start">
+  <div>
+    <p class="eyebrow mb-4">{{ site.role }}</p>
+    <h1 class="font-display text-5xl sm:text-6xl leading-[1.05] mb-6">{{ site.name | replace(" ", "<br/>") | safe }}</h1>
+    <p class="text-lg text-inksoft max-w-md leading-relaxed mb-6">{{ site.bio }}</p>
+    <div class="mb-7">
+      <span class="stamp-badge">{{ site.authorizationBadge }}</span>
+    </div>
+    <div class="flex flex-wrap gap-3">
+      <a href="mailto:{{ site.email }}" class="btn-primary">Email Me</a>
+      <a href="/resume.pdf" target="_blank" rel="noopener" class="btn-outline">Download Résumé</a>
+    </div>
+    <div class="flex flex-wrap gap-x-6 gap-y-2 mt-7 font-mono text-xs text-inksoft">
+      <a href="tel:{{ site.phoneHref }}" class="hover:text-ink">{{ site.phoneDisplay }}</a>
+      <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="hover:text-ink">LinkedIn</a>
+      <a href="{{ site.social.tableau }}" target="_blank" rel="noopener" class="hover:text-ink">Tableau</a>
+      <a href="{{ site.social.kaggle }}" target="_blank" rel="noopener" class="hover:text-ink">Kaggle</a>
+    </div>
+  </div>
+
+  <div class="record-card p-6 md:mt-4">
+    <p class="eyebrow mb-4 flex items-center justify-between">
+      <span>Personnel Record</span>
+      <span class="text-line">№ 001</span>
+    </p>
+    {% for field in site.record %}
+    <div class="record-row">
+      <span class="font-mono text-xs text-inksoft uppercase">{{ field.label }}</span>
+      <span class="text-sm">{{ field.value }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-6 pb-16 reveal">
+  <p class="eyebrow mb-5">Recent figures on record</p>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    {% for m in site.metrics %}
+    <div class="metric-card">
+      <div class="metric-num">{{ m.num }}</div>
+      <p class="text-xs text-inksoft mt-1 leading-snug">{{ m.label }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="experience" class="max-w-5xl mx-auto px-6 py-16 border-t border-line">
+  <p class="eyebrow mb-2">01 — Record of Employment</p>
+  <h2 class="font-display text-3xl mb-10">Experience</h2>
+
+  {% for job in site.experience %}
+  <div class="ledger-entry reveal">
+    <div class="font-mono text-xs text-inksoft pt-1">{{ job.dateStart }} —<br/>{{ job.dateEnd }}</div>
+    <div>
+      <div class="flex flex-wrap items-center gap-2 mb-1">
+        <h3 class="font-display text-xl">{{ job.title }}</h3>
+        <span class="tag">{{ job.type }}</span>
+      </div>
+      <p class="text-sm text-inksoft mb-3 italic">{{ job.subtitle }}</p>
+      <ul class="space-y-2 text-sm leading-relaxed">
+        {% for bullet in job.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="skills" class="max-w-5xl mx-auto px-6 py-16 border-t border-line reveal">
+  <p class="eyebrow mb-2">02 — Toolkit</p>
+  <h2 class="font-display text-3xl mb-10">Skills</h2>
+
+  <div class="grid sm:grid-cols-2 gap-x-10 gap-y-8">
+    {% for group in site.skills %}
+    <div>
+      <p class="font-mono text-xs uppercase tracking-wider text-seal mb-3">{{ group.group }}</p>
+      <div class="flex flex-wrap gap-2">
+        {% for item in group.items %}
+        <span class="skill-chip">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="projects" class="max-w-5xl mx-auto px-6 py-16 border-t border-line reveal">
+  <p class="eyebrow mb-2">03 — Work Samples</p>
+  <h2 class="font-display text-3xl mb-10">Projects</h2>
+
+  <div class="grid sm:grid-cols-2 gap-6">
+    {% for project in site.projects %}
+    <a href="{{ project.url }}" target="_blank" rel="noopener" class="record-card p-6 block hover:border-stamp transition-colors">
+      <span class="tag mb-3">{{ project.tag }}</span>
+      <p class="font-display text-xl mt-3 mb-2">{{ project.title }}</p>
+      <p class="text-sm text-inksoft leading-relaxed mb-4">{{ project.description }}</p>
+      <span class="font-mono text-xs uppercase tracking-wider text-ink">{{ project.cta }} ↗</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="education" class="max-w-5xl mx-auto px-6 py-16 border-t border-line reveal">
+  <p class="eyebrow mb-2">04 — Education & Certifications</p>
+  <h2 class="font-display text-3xl mb-10">Education</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    <div>
+      {% for edu in site.education %}
+      <div class="record-row">
+        <span class="font-mono text-xs text-inksoft uppercase">{{ edu.year }}</span>
+        <div>
+          <p class="font-display text-lg leading-snug">{{ edu.degree }}</p>
+          <p class="text-sm text-inksoft">{{ edu.school }}</p>
+          {% if edu.note %}<p class="text-xs text-inksoft italic mt-1">{{ edu.note }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div>
+      <p class="font-mono text-xs uppercase tracking-wider text-seal mb-3">Certifications</p>
+      <ul class="space-y-3 text-sm">
+        {% for cert in site.certifications %}
+        <li class="flex justify-between border-b border-dashed border-line pb-2">
+          <span>{{ cert.name }}</span>
+          <span class="font-mono text-xs text-inksoft whitespace-nowrap ml-3">{{ cert.date }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-6 py-16 border-t border-line reveal">
+  <p class="eyebrow mb-2">05 — Leadership & Additional</p>
+  <h2 class="font-display text-3xl mb-10">Beyond the Role</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    {% for item in site.leadership %}
+    <div>
+      <p class="font-display text-lg mb-1">{{ item.title }}</p>
+      <p class="text-sm text-inksoft italic mb-3">{{ item.subtitle }}</p>
+      <p class="text-sm leading-relaxed">{{ item.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="contact" class="max-w-5xl mx-auto px-6 py-16 border-t border-line reveal">
+  <p class="eyebrow mb-2">06 — Get in Touch</p>
+  <h2 class="font-display text-3xl mb-6">Contact</h2>
+  <p class="text-inksoft max-w-md mb-8 leading-relaxed">Open to full-time business operations, RevOps, and analytics roles. Sponsorship-friendly opportunities welcome.</p>
+
+  <div class="grid sm:grid-cols-2 gap-6 mb-10">
+    <a href="mailto:{{ site.email }}" class="record-card p-5 block hover:border-stamp transition-colors">
+      <p class="font-mono text-xs uppercase text-inksoft mb-1">Email</p>
+      <p class="text-sm">{{ site.email }}</p>
+    </a>
+    <a href="tel:{{ site.phoneHref }}" class="record-card p-5 block hover:border-stamp transition-colors">
+      <p class="font-mono text-xs uppercase text-inksoft mb-1">Phone</p>
+      <p class="text-sm">{{ site.phoneDisplay }}</p>
+    </a>
+    <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="record-card p-5 block hover:border-stamp transition-colors">
+      <p class="font-mono text-xs uppercase text-inksoft mb-1">LinkedIn</p>
+      <p class="text-sm">{{ site.social.linkedinDisplay }}</p>
+    </a>
+    <a href="{{ site.social.tableau }}" target="_blank" rel="noopener" class="record-card p-5 block hover:border-stamp transition-colors">
+      <p class="font-mono text-xs uppercase text-inksoft mb-1">Tableau Public</p>
+      <p class="text-sm">Data visualizations & dashboards</p>
+    </a>
+  </div>
+
+  <a href="/resume.pdf" target="_blank" rel="noopener" class="btn-primary">Download Full Résumé (PDF)</a>
+</section>

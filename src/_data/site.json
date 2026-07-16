@@ -1,0 +1,172 @@
+{
+  "name": "Giovani Batista",
+  "role": "Business Operations & Analytics",
+  "location": "Takoma Park, MD",
+  "email": "giovanibatista07@gmail.com",
+  "phoneDisplay": "(646) 217-1691",
+  "phoneHref": "+16462171691",
+  "bio": "I turn high-volume, messy inputs \u2014 leads, budgets, schedules, compliance records \u2014 into standardized systems people can actually track. MBA with hands-on experience across RevOps, athletics administration, and financial operations.",
+  "authorizationBadge": "H-1B Sponsorship Required \u00b7 OPT Available",
+  "social": {
+    "linkedin": "http://www.linkedin.com/in/giovani-batista",
+    "linkedinDisplay": "linkedin.com/in/giovani-batista",
+    "tableau": "https://public.tableau.com/app/profile/giovani.batista/vizzes",
+    "kaggle": "https://www.kaggle.com/code/giovanibatista/cyclistic-case-study-2020-q1"
+  },
+  "projects": [
+    {
+      "title": "Tableau Public Portfolio",
+      "tag": "Data Visualization",
+      "platform": "Tableau Public",
+      "description": "A growing collection of interactive dashboards and visualizations, built to explore real datasets and communicate findings clearly.",
+      "url": "https://public.tableau.com/app/profile/giovani.batista/vizzes",
+      "cta": "View on Tableau Public"
+    },
+    {
+      "title": "Cyclistic Bike-Share Case Study",
+      "tag": "Google Data Analytics Capstone",
+      "platform": "Kaggle",
+      "description": "An end-to-end SQL, Excel, and Tableau analysis comparing how casual riders and annual members use a bike-share service, built to inform a data-driven marketing recommendation.",
+      "url": "https://www.kaggle.com/code/giovanibatista/cyclistic-case-study-2020-q1",
+      "cta": "View on Kaggle"
+    }
+  ],
+  "record": [
+    { "label": "Location", "value": "Takoma Park, MD" },
+    { "label": "Status", "value": "Open to full-time roles" },
+    { "label": "Authorization", "value": "H-1B sponsorship required, OPT available" },
+    { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
+    { "label": "Focus", "value": "RevOps \u00b7 Analytics \u00b7 Program Ops" }
+  ],
+  "metrics": [
+    { "num": "47%", "label": "Consultation-booking rate on qualified leads" },
+    { "num": "964%", "label": "Growth in impressions over 3 months" },
+    { "num": "$1M+", "label": "Scholarship fund reporting oversight" },
+    { "num": "3,500+", "label": "Inbound leads in a managed pipeline" }
+  ],
+  "experience": [
+    {
+      "dateStart": "APR 2026",
+      "dateEnd": "PRESENT",
+      "title": "Talent Support Advisor",
+      "type": "Contract",
+      "subtitle": "Pipeline Operations & Lead Qualification \u00b7 ASM Sports (Sports Talent Management & Consulting), Takoma Park, MD",
+      "bullets": [
+        "Managed outreach for 600+ prospects within a 3,500+ inbound lead pipeline via email, SMS, and phone; kept CRM-style documentation of qualification status and follow-up.",
+        "Qualified and prioritized leads using a structured framework \u2014 budget, urgency, timeline, program fit, sports background.",
+        "Achieved a 47% consultation-booking rate (125 of 267 qualified prospects) via standardized discovery workflows.",
+        "Built pipeline tracking documentation to improve forecast visibility and stakeholder reporting."
+      ]
+    },
+    {
+      "dateStart": "SEP 2025",
+      "dateEnd": "PRESENT",
+      "title": "Digital Operations & Business Strategy Analyst",
+      "type": "Contract",
+      "subtitle": "PhiloSoccer Academy (Digital Media & Analytics), Takoma Park, MD",
+      "bullets": [
+        "Built a centralized digital initiative tracker covering 300+ tasks across content, website, campaigns, and analytics.",
+        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by standardizing content planning and channel strategy.",
+        "Increased Instagram Reels interactions by 104% and saves by 234% by closing content-funnel gaps.",
+        "Analyzed CPC, reach, and campaign trends via Meta Insights and Metricool to guide budget reallocation."
+      ]
+    },
+    {
+      "dateStart": "AUG 2023",
+      "dateEnd": "AUG 2025",
+      "title": "Graduate Assistant",
+      "type": "Part-time",
+      "subtitle": "Athletics Operations & Project Coordination \u00b7 Washington Adventist University, Takoma Park, MD",
+      "bullets": [
+        "Supported reporting and compliance for a $1M+ athletic scholarship fund, standardizing documentation and approval tracking.",
+        "Built 6+ Excel-based operational trackers for expenses, scholarships, performance, scheduling, and compliance.",
+        "Prepared weekly reports for 60+ student-athletes, cutting manual consolidation time by an estimated 40%.",
+        "Managed logistics for 15+ program trips involving 20+ stakeholders \u2014 zero compliance violations."
+      ]
+    },
+    {
+      "dateStart": "JUL 2022",
+      "dateEnd": "MAY 2023",
+      "title": "Student Life Manager",
+      "type": "Full-time",
+      "subtitle": "Program & Operations Coordination \u00b7 Coffeyville Community College, Coffeyville, KS",
+      "bullets": [
+        "Coordinated logistics and stakeholder communication for 30+ campus events per academic year.",
+        "Managed scheduling and academic coordination for 50+ student-athletes.",
+        "Implemented Excel tracking systems that centralized attendance, scheduling, and follow-up data."
+      ]
+    },
+    {
+      "dateStart": "MAY 2017",
+      "dateEnd": "APR 2018",
+      "title": "Accountant Clerk",
+      "type": "Full-time",
+      "subtitle": "Deconto Ltda., Porto Alegre, Brazil",
+      "bullets": [
+        "Maintained accounting documentation and bank reconciliations for 15 client accounts.",
+        "Recorded journal entries and classified expenses to support balance sheet preparation.",
+        "Supported tax compliance, filing revenue documentation through government portals."
+      ]
+    },
+    {
+      "dateStart": "MAY 2016",
+      "dateEnd": "APR 2017",
+      "title": "Assistant Operations Manager",
+      "type": "Full-time",
+      "subtitle": "Fiorio & Fachini Ltda., Porto Alegre, Brazil",
+      "bullets": [
+        "Maintained service consistency for ~65 customers per day, resolving workflow bottlenecks.",
+        "Coordinated shift operations across a 4-person team during peak periods.",
+        "Analyzed point-of-sale patterns to improve transaction throughput."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "group": "Operations & RevOps",
+      "items": ["Pipeline Management", "Lead Qualification", "Sales Operations", "Funnel Analysis", "Workflow Standardization", "Process Improvement", "CRM Documentation", "Stakeholder Management"]
+    },
+    {
+      "group": "Analytics & Reporting",
+      "items": ["SQL", "Excel (VLOOKUP, Pivot Tables)", "Python", "R", "BigQuery", "Google Analytics", "Google Suite"]
+    },
+    {
+      "group": "Business Analysis",
+      "items": ["Tableau", "Power BI", "Agile", "Scrum", "Kanban", "Jira", "monday.com"]
+    },
+    {
+      "group": "Digital Analytics",
+      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing"]
+    }
+  ],
+  "education": [
+    {
+      "year": "2025",
+      "degree": "Master of Business Administration",
+      "school": "Washington Adventist University, Maryland"
+    },
+    {
+      "year": "2022",
+      "degree": "B.S. Business Administration & Management, B.S. Marketing Management",
+      "school": "Union Commonwealth University, Kentucky",
+      "note": "Athletic Scholarship Recipient \u2014 NAIA Student-Athlete"
+    }
+  ],
+  "certifications": [
+    { "name": "Google Business Intelligence Certificate", "date": "FEB 2026" },
+    { "name": "Google Data Analytics Certificate", "date": "FEB 2026" },
+    { "name": "Google Project Management Certificate", "date": "JUL 2025" }
+  ],
+  "leadership": [
+    {
+      "title": "VP of Business Affairs",
+      "subtitle": "Student Government Association, Union Commonwealth University \u00b7 2020\u20132022",
+      "description": "Oversaw a $50,000+ student organization budget for a ~1,300-person student body, managing funding requests and financial reporting across 20+ chartered organizations and 20+ events."
+    },
+    {
+      "title": "Professional Soccer Player",
+      "subtitle": "Associa\u00e7\u00e3o Nova Prata, Brazil",
+      "description": "Developed discipline, teamwork, and leadership under high-performance conditions before pursuing higher education in the United States."
+    }
+  ]
+}

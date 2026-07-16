@@ -1,0 +1,5 @@
+node_modules/
+_site/
+src/styles/main.css
+.DS_Store
+.netlify/

@@ -1,7 +1,7 @@
 {
   "name": "Giovani Batista",
   "role": "Business Analyst · Operations Analyst · Data Analyst",
-  "location": "Takoma Park, MD",
+  "location": "Washington DC-Baltimore Area",
   "email": "giovanibatista07@gmail.com",
   "bio": "I turn high-volume, messy inputs — pipelines, budgets, schedules, compliance records — into the dashboards, reports, and standardized workflows leaders actually make decisions with. MBA with hands-on business analysis, operations, and reporting experience.",
   "targetRoles": ["Business Analyst", "Operations Analyst", "Data Analyst"],
@@ -30,7 +30,7 @@
     }
   ],
   "record": [
-    { "label": "Location", "value": "Takoma Park, MD" },
+    { "label": "Location", "value": "Washington DC-Baltimore Area" },
     { "label": "Status", "value": "Open to full-time roles" },
     { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
     { "label": "Focus", "value": "Business Analysis · Operations · Data" }

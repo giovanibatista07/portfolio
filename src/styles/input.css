@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #E9F1F0;
-  --color-inksoft: #8C9B9A;
-  --color-paper: #08100F;
-  --color-surface: #101A18;
-  --color-line: #263532;
-  --color-stamp: #A8D36F;
-  --color-seal: #68C7C0;
+  --color-ink: #E8EEFA;
+  --color-inksoft: #8D9AB5;
+  --color-paper: #060B18;
+  --color-surface: #0F1729;
+  --color-line: #22314F;
+  --color-stamp: #5C8DF6;
+  --color-seal: #8FB6FF;
 
   --font-display: "Syne", sans-serif;
   --font-body: "Instrument Sans", sans-serif;
@@ -30,9 +30,9 @@ body {
   min-height: 100vh;
   background-color: var(--color-paper);
   background-image:
-    linear-gradient(rgba(104, 199, 192, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(104, 199, 192, 0.035) 1px, transparent 1px),
-    radial-gradient(circle at 82% 8%, rgba(104, 199, 192, 0.09), transparent 28rem);
+    linear-gradient(rgba(143, 182, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(143, 182, 255, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 82% 8%, rgba(143, 182, 255, 0.09), transparent 28rem);
   background-size: 48px 48px, 48px 48px, auto;
   color: var(--color-ink);
   font-family: var(--font-body);
@@ -46,7 +46,7 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(90deg, rgba(8, 16, 15, 0.96) 0%, transparent 20%, transparent 80%, rgba(8, 16, 15, 0.96) 100%);
+  background: linear-gradient(90deg, rgba(6, 11, 24, 0.96) 0%, transparent 20%, transparent 80%, rgba(6, 11, 24, 0.96) 100%);
 }
 
 ::selection {
@@ -55,8 +55,8 @@ body::before {
 }
 
 .site-header {
-  background: rgba(8, 16, 15, 0.82);
-  box-shadow: 0 10px 40px rgba(3, 8, 7, 0.35);
+  background: rgba(6, 11, 24, 0.82);
+  box-shadow: 0 10px 40px rgba(2, 5, 12, 0.45);
 }
 
 .brand-mark {
@@ -97,7 +97,7 @@ body::before {
   max-width: 8ch;
   letter-spacing: -0.065em;
   text-wrap: balance;
-  background: linear-gradient(130deg, var(--color-ink) 35%, #9bb8b4 100%);
+  background: linear-gradient(130deg, var(--color-ink) 35%, #9DB4E0 100%);
   background-clip: text;
   color: transparent;
 }
@@ -136,21 +136,21 @@ button:focus-visible {
   font-size: 0.68rem;
   font-weight: 600;
   border-radius: 999px;
-  background: rgba(168, 211, 111, 0.07);
+  background: rgba(92, 141, 246, 0.07);
   line-height: 1.5;
 }
 
 .record-card {
-  background: linear-gradient(145deg, rgba(19, 31, 29, 0.96), rgba(12, 22, 20, 0.96));
+  background: linear-gradient(145deg, rgba(18, 28, 50, 0.96), rgba(11, 18, 34, 0.96));
   border: 1px solid var(--color-line);
   border-radius: 2px;
-  box-shadow: 0 24px 80px -45px rgba(104, 199, 192, 0.45);
+  box-shadow: 0 24px 80px -45px rgba(143, 182, 255, 0.45);
   transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
 }
 .record-card:hover {
-  border-color: rgba(104, 199, 192, 0.7);
+  border-color: rgba(143, 182, 255, 0.7);
   transform: translateY(-3px);
-  background: linear-gradient(145deg, rgba(23, 38, 35, 0.98), rgba(12, 22, 20, 0.98));
+  background: linear-gradient(145deg, rgba(24, 38, 66, 0.98), rgba(11, 18, 34, 0.98));
 }
 
 .data-profile {
@@ -164,9 +164,9 @@ button:focus-visible {
   height: 9rem;
   right: -4rem;
   top: -4rem;
-  border: 1px solid rgba(104, 199, 192, 0.18);
+  border: 1px solid rgba(143, 182, 255, 0.18);
   border-radius: 50%;
-  box-shadow: 0 0 0 2rem rgba(104, 199, 192, 0.025), 0 0 0 4rem rgba(104, 199, 192, 0.02);
+  box-shadow: 0 0 0 2rem rgba(143, 182, 255, 0.025), 0 0 0 4rem rgba(143, 182, 255, 0.02);
 }
 .status-live {
   display: inline-flex;
@@ -180,7 +180,7 @@ button:focus-visible {
   height: 0.4rem;
   border-radius: 50%;
   background: var(--color-stamp);
-  box-shadow: 0 0 0 4px rgba(168, 211, 111, 0.12);
+  box-shadow: 0 0 0 4px rgba(92, 141, 246, 0.12);
   animation: pulse 2s ease-in-out infinite;
 }
 .signal-chart {
@@ -191,17 +191,17 @@ button:focus-visible {
   padding: 1.25rem 1rem 0.75rem;
   margin-bottom: 0.55rem;
   border: 1px solid var(--color-line);
-  background-image: linear-gradient(rgba(104, 199, 192, 0.08) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(143, 182, 255, 0.08) 1px, transparent 1px);
   background-size: 100% 25%;
 }
 .signal-chart span {
   flex: 1;
   height: var(--signal);
-  background: linear-gradient(to top, rgba(104, 199, 192, 0.18), var(--color-seal));
+  background: linear-gradient(to top, rgba(143, 182, 255, 0.18), var(--color-seal));
   transform-origin: bottom;
   animation: chart-in 0.7s cubic-bezier(.2,.8,.2,1) both;
 }
-.signal-chart span:nth-child(2n) { background: linear-gradient(to top, rgba(168, 211, 111, 0.12), var(--color-stamp)); }
+.signal-chart span:nth-child(2n) { background: linear-gradient(to top, rgba(92, 141, 246, 0.12), var(--color-stamp)); }
 .signal-chart span:nth-child(2) { animation-delay: 0.08s; }
 .signal-chart span:nth-child(3) { animation-delay: 0.16s; }
 .signal-chart span:nth-child(4) { animation-delay: 0.24s; }
@@ -259,7 +259,7 @@ button:focus-visible {
   font-weight: 600;
   color: var(--color-seal);
   border: 1px solid var(--color-seal);
-  background: rgba(104, 199, 192, 0.06);
+  background: rgba(143, 182, 255, 0.06);
   padding: 0.2rem 0.55rem;
   border-radius: 2px;
 }
@@ -268,7 +268,7 @@ button:focus-visible {
   font-family: var(--font-body);
   font-size: 0.86rem;
   color: var(--color-ink);
-  background: rgba(16, 26, 24, 0.8);
+  background: rgba(15, 23, 41, 0.8);
   border: 1px solid var(--color-line);
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
@@ -281,7 +281,7 @@ button:focus-visible {
 }
 
 .metric-card {
-  background: rgba(16, 26, 24, 0.82);
+  background: rgba(15, 23, 41, 0.82);
   border: 1px solid var(--color-line);
   border-radius: 2px;
   padding: 1.25rem 1.1rem;
@@ -336,7 +336,7 @@ button:focus-visible {
   transition: background 0.2s ease, transform 0.2s ease;
   display: inline-block;
 }
-.btn-primary:hover { background: #BDE782; transform: translateY(-2px); }
+.btn-primary:hover { background: #87ABFF; transform: translateY(-2px); }
 
 .btn-outline {
   border: 1px solid var(--color-line); color: var(--color-ink);
@@ -346,7 +346,7 @@ button:focus-visible {
   transition: all 0.2s ease;
   display: inline-block;
 }
-.btn-outline:hover { border-color: var(--color-seal); color: var(--color-seal); background: rgba(104, 199, 192, 0.06); }
+.btn-outline:hover { border-color: var(--color-seal); color: var(--color-seal); background: rgba(143, 182, 255, 0.06); }
 
 .projects-grid > :first-child {
   transform: translateY(1.5rem);

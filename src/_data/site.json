@@ -3,9 +3,7 @@
   "role": "Business Operations & Analytics",
   "location": "Takoma Park, MD",
   "email": "giovanibatista07@gmail.com",
-  "phoneDisplay": "(646) 217-1691",
-  "phoneHref": "+16462171691",
-  "bio": "I turn high-volume, messy inputs \u2014 leads, budgets, schedules, compliance records \u2014 into standardized systems people can actually track. MBA with hands-on experience across RevOps, athletics administration, and financial operations.",
+  "bio": "I turn high-volume, messy inputs — leads, budgets, schedules, compliance records — into standardized systems people can actually track. MBA with hands-on experience across RevOps, athletics administration, and financial operations.",
   "social": {
     "linkedin": "http://www.linkedin.com/in/giovani-batista",
     "linkedinDisplay": "linkedin.com/in/giovani-batista",
@@ -34,13 +32,13 @@
     { "label": "Location", "value": "Takoma Park, MD" },
     { "label": "Status", "value": "Open to full-time roles" },
     { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
-    { "label": "Focus", "value": "RevOps \u00b7 Analytics \u00b7 Program Ops" }
+    { "label": "Focus", "value": "RevOps · Analytics · Program Ops" }
   ],
   "metrics": [
-    { "num": "47%", "label": "Consultation-booking rate on qualified leads" },
+    { "num": "45%", "label": "Positive-outcome rate at final-stage interviews" },
     { "num": "964%", "label": "Growth in impressions over 3 months" },
     { "num": "$1M+", "label": "Scholarship fund reporting oversight" },
-    { "num": "3,500+", "label": "Inbound leads in a managed pipeline" }
+    { "num": "4,250+", "label": "Prospects in the team-wide pipeline" }
   ],
   "experience": [
     {
@@ -48,12 +46,13 @@
       "dateEnd": "PRESENT",
       "title": "Talent Support Advisor",
       "type": "Contract",
-      "subtitle": "Pipeline Operations & Lead Qualification \u00b7 ASM Sports (Sports Talent Management & Consulting), Takoma Park, MD",
+      "subtitle": "Pipeline Operations & Lead Qualification · ASM Sports (Sports Talent Management & Consulting), Takoma Park, MD",
       "bullets": [
-        "Managed outreach for 600+ prospects within a 3,500+ inbound lead pipeline via email, SMS, and phone; kept CRM-style documentation of qualification status and follow-up.",
-        "Qualified and prioritized leads using a structured framework \u2014 budget, urgency, timeline, program fit, sports background.",
-        "Achieved a 47% consultation-booking rate (125 of 267 qualified prospects) via standardized discovery workflows.",
-        "Built pipeline tracking documentation to improve forecast visibility and stakeholder reporting."
+        "Executed first-touch outreach across 500+ leads per cycle within a team-wide pipeline of 4,250+ prospects, using a structured 5-touchpoint cadence (call, text, and email) to maximize response rates.",
+        "Achieved a 30%+ live-connect rate on first-attempt cold outreach, converting roughly 1 in 3 contacts into an active consultation conversation.",
+        "Qualified and booked 85+ consultations per cycle, driving a 45% positive-outcome rate at final-stage interviews through standardized discovery workflows and a repeatable multichannel outreach cadence.",
+        "Allocated ~40% of personally-sourced leads to senior recruiters as sales-ready candidates, directly supporting business development for the Agent Advisory program.",
+        "Maintained CRM-style tracking across 500+ candidate records, ensuring clean pipeline documentation, accurate handoffs to senior recruiters, and full visibility into qualification status and follow-up stages."
       ]
     },
     {
@@ -63,10 +62,11 @@
       "type": "Contract",
       "subtitle": "PhiloSoccer Academy (Digital Media & Analytics), Takoma Park, MD",
       "bullets": [
-        "Built a centralized digital initiative tracker covering 300+ tasks across content, website, campaigns, and analytics.",
-        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by standardizing content planning and channel strategy.",
-        "Increased Instagram Reels interactions by 104% and saves by 234% by closing content-funnel gaps.",
-        "Analyzed CPC, reach, and campaign trends via Meta Insights and Metricool to guide budget reallocation."
+        "Built a centralized digital initiative tracker covering 300+ tasks across content, website, campaigns, and analytics — documenting owners, deadlines, follow-up status, and execution progress to improve operational accountability.",
+        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by standardizing content planning, refining channel strategy, and increasing posting consistency based on performance data.",
+        "Increased Instagram Reels interactions by 104% and saves by 234% by identifying content funnel gaps and reallocating effort toward high-performing formats.",
+        "Analyzed CPC, reach, and campaign performance trends using Meta Insights and Metricool to identify underperforming ads and recommend budget reallocations that improved ROI.",
+        "Coordinated cross-functional workflows across website, content, analytics, and paid channels — establishing ownership frameworks that reduced task duplication and improved on-time delivery."
       ]
     },
     {
@@ -74,12 +74,13 @@
       "dateEnd": "AUG 2025",
       "title": "Graduate Assistant",
       "type": "Part-time",
-      "subtitle": "Athletics Operations & Project Coordination \u00b7 Washington Adventist University, Takoma Park, MD",
+      "subtitle": "Athletics Operations & Project Coordination · Washington Adventist University, Takoma Park, MD",
       "bullets": [
-        "Supported reporting and compliance for a $1M+ athletic scholarship fund, standardizing documentation and approval tracking.",
-        "Built 6+ Excel-based operational trackers for expenses, scholarships, performance, scheduling, and compliance.",
-        "Prepared weekly reports for 60+ student-athletes, cutting manual consolidation time by an estimated 40%.",
-        "Managed logistics for 15+ program trips involving 20+ stakeholders \u2014 zero compliance violations."
+        "Supported reporting and compliance workflows for a $1M+ athletic scholarship fund by standardizing documentation, tracking approval stages, and maintaining real-time visibility into open items for athletics administrators.",
+        "Built 6+ Excel-based operational trackers for expenses, scholarship approvals, athlete performance, scheduling, and compliance — centralizing data previously managed across disconnected spreadsheets and email threads.",
+        "Prepared weekly academic, performance, and compliance reports for 60+ student-athletes by consolidating data from multiple sources, reducing manual consolidation time by an estimated 40%.",
+        "Managed end-to-end logistics for 15+ program trips involving 20+ stakeholders — overseeing scheduling, documentation, budget tracking, and expense approvals with zero compliance violations.",
+        "Standardized 5+ recurring reporting workflows and built open-item trackers and documentation templates that reduced manual follow-up and improved cross-team coordination."
       ]
     },
     {
@@ -87,11 +88,11 @@
       "dateEnd": "MAY 2023",
       "title": "Student Life Manager",
       "type": "Full-time",
-      "subtitle": "Program & Operations Coordination \u00b7 Coffeyville Community College, Coffeyville, KS",
+      "subtitle": "Program & Operations Coordination · Coffeyville Community College, Coffeyville, KS",
       "bullets": [
-        "Coordinated logistics and stakeholder communication for 30+ campus events per academic year.",
-        "Managed scheduling and academic coordination for 50+ student-athletes.",
-        "Implemented Excel tracking systems that centralized attendance, scheduling, and follow-up data."
+        "Coordinated logistics, scheduling, and stakeholder communication for 30+ campus events per academic year; introduced Excel-based event tracking that improved attendance data access and follow-up consistency.",
+        "Managed scheduling, academic coordination, and communication workflows for 50+ student-athletes, serving as the operational liaison between athletics, administration, and student-life departments.",
+        "Implemented Excel tracking systems for student engagement, athletics operations, and event execution that centralized attendance, scheduling, and follow-up data across departments."
       ]
     },
     {
@@ -101,9 +102,10 @@
       "type": "Full-time",
       "subtitle": "Deconto Ltda., Porto Alegre, Brazil",
       "bullets": [
-        "Maintained accounting documentation and bank reconciliations for 15 client accounts.",
-        "Recorded journal entries and classified expenses to support balance sheet preparation.",
-        "Supported tax compliance, filing revenue documentation through government portals."
+        "Maintained accounting documentation and completed bank reconciliations for 15 client accounts, supporting accurate financial recordkeeping and audit preparation.",
+        "Recorded journal entries and classified expenses to support balance sheet preparation and improve reporting accuracy.",
+        "Supported tax compliance by preparing and uploading revenue documentation through government portals, including FGTS-related records.",
+        "Coordinated with accountants and legal staff to ensure accurate handling of payroll, tax, and compliance documentation."
       ]
     },
     {
@@ -113,9 +115,10 @@
       "type": "Full-time",
       "subtitle": "Fiorio & Fachini Ltda., Porto Alegre, Brazil",
       "bullets": [
-        "Maintained service consistency for ~65 customers per day, resolving workflow bottlenecks.",
-        "Coordinated shift operations across a 4-person team during peak periods.",
-        "Analyzed point-of-sale patterns to improve transaction throughput."
+        "Maintained service consistency for ~65 customers per day by proactively identifying workflow bottlenecks and managing staffing needs.",
+        "Coordinated shift operations across a 4-person team, managing service flow and customer support during peak periods.",
+        "Analyzed point-of-sale patterns to resolve recurring operational inefficiencies and improve transaction throughput.",
+        "Supported local marketing efforts by developing promotional materials and strengthening the business's Google presence to increase neighborhood visibility."
       ]
     }
   ],
@@ -126,7 +129,7 @@
     },
     {
       "group": "Analytics & Reporting",
-      "items": ["SQL", "Excel (VLOOKUP, Pivot Tables)", "Python", "R", "BigQuery", "Google Analytics", "Google Suite"]
+      "items": ["SQL", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Python", "R", "BigQuery", "Google Analytics", "Power Query", "Google Suite"]
     },
     {
       "group": "Business Analysis",
@@ -139,31 +142,31 @@
   ],
   "education": [
     {
-      "year": "2025",
-      "degree": "Master of Business Administration",
+      "year": "AUG 2025",
+      "degree": "Master of Business Administration (MBA)",
       "school": "Washington Adventist University, Maryland"
     },
     {
-      "year": "2022",
+      "year": "MAY 2022",
       "degree": "B.S. Business Administration & Management, B.S. Marketing Management",
       "school": "Union Commonwealth University, Kentucky",
-      "note": "Athletic Scholarship Recipient \u2014 NAIA Student-Athlete"
+      "note": "Athletic Scholarship Recipient — NAIA Student-Athlete; balanced a full academic load with varsity athletics and leadership responsibilities."
     }
   ],
   "certifications": [
-    { "name": "Google Business Intelligence Certificate", "date": "FEB 2026" },
-    { "name": "Google Data Analytics Certificate", "date": "FEB 2026" },
-    { "name": "Google Project Management Certificate", "date": "JUL 2025" }
+    { "name": "Google Business Intelligence Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
+    { "name": "Google Data Analytics Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
+    { "name": "Google Project Management Certificate", "issuer": "Google / Coursera", "date": "JUL 2025" }
   ],
   "leadership": [
     {
       "title": "VP of Business Affairs",
-      "subtitle": "Student Government Association, Union Commonwealth University \u00b7 2020\u20132022",
-      "description": "Oversaw a $50,000+ student organization budget for a ~1,300-person student body, managing funding requests and financial reporting across 20+ chartered organizations and 20+ events."
+      "subtitle": "Student Government Association, Union Commonwealth University · 2020–2022",
+      "description": "Oversaw a $50,000+ student organization budget for a ~1,300-person student body, managing funding requests, financial reporting, and resource allocation across 20+ chartered organizations and 20+ events. Led cross-functional coordination between student clubs, academic departments, and university administration, improving communication workflows and funding approval timelines."
     },
     {
       "title": "Professional Soccer Player",
-      "subtitle": "Associa\u00e7\u00e3o Nova Prata, Brazil",
+      "subtitle": "Associação Nova Prata, Brazil",
       "description": "Developed discipline, teamwork, and leadership under high-performance conditions before pursuing higher education in the United States."
     }
   ]

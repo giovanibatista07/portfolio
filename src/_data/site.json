@@ -1,9 +1,10 @@
 {
   "name": "Giovani Batista",
-  "role": "Business Operations & Analytics",
+  "role": "Business Analyst · Operations Analyst · Data Analyst",
   "location": "Takoma Park, MD",
   "email": "giovanibatista07@gmail.com",
-  "bio": "I turn high-volume, messy inputs — leads, budgets, schedules, compliance records — into standardized systems people can actually track. MBA with hands-on experience across RevOps, athletics administration, and financial operations.",
+  "bio": "I turn high-volume, messy inputs — pipelines, budgets, schedules, compliance records — into the dashboards, reports, and standardized workflows leaders actually make decisions with. MBA with hands-on business analysis, operations, and reporting experience.",
+  "targetRoles": ["Business Analyst", "Operations Analyst", "Data Analyst"],
   "social": {
     "linkedin": "http://www.linkedin.com/in/giovani-batista",
     "linkedinDisplay": "linkedin.com/in/giovani-batista",
@@ -32,7 +33,7 @@
     { "label": "Location", "value": "Takoma Park, MD" },
     { "label": "Status", "value": "Open to full-time roles" },
     { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
-    { "label": "Focus", "value": "RevOps · Analytics · Program Ops" }
+    { "label": "Focus", "value": "Business Analysis · Operations · Data" }
   ],
   "metrics": [
     { "num": "45%", "label": "Positive-outcome rate at final-stage interviews" },
@@ -124,39 +125,108 @@
   ],
   "skills": [
     {
-      "group": "Operations & RevOps",
-      "items": ["Pipeline Management", "Lead Qualification", "Sales Operations", "Funnel Analysis", "Workflow Standardization", "Process Improvement", "CRM Documentation", "Stakeholder Management"]
+      "group": "Data Analysis & Reporting",
+      "items": ["SQL", "Python", "R", "BigQuery", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Power Query", "Data Cleaning", "Dataset Joins", "Derived Metrics"]
     },
     {
-      "group": "Analytics & Reporting",
-      "items": ["SQL", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Python", "R", "BigQuery", "Google Analytics", "Power Query", "Google Suite"]
+      "group": "Business Intelligence & Visualization",
+      "items": ["Tableau", "Power BI", "Palantir Contour", "Palantir Quiver", "Google Analytics", "Dashboard Design", "KPI Reporting"]
     },
     {
       "group": "Business Analysis",
-      "items": ["Tableau", "Power BI", "Agile", "Scrum", "Kanban", "Jira", "monday.com"]
+      "items": ["Requirements Gathering", "Process Mapping", "Funnel Analysis", "Root-Cause Analysis", "Agile", "Scrum", "Kanban", "Jira", "monday.com"]
     },
     {
-      "group": "Digital Analytics",
-      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing"]
+      "group": "Operations & Process",
+      "items": ["Pipeline Management", "Workflow Standardization", "Process Improvement", "Sales & Revenue Operations", "CRM Documentation", "Compliance Tracking", "Stakeholder Management"]
+    },
+    {
+      "group": "Palantir Foundry Platform",
+      "items": ["Foundry", "AIP", "Ontology-Driven Data Modeling", "Data Integration", "Pipeline Orchestration", "Workflow Automation"]
+    },
+    {
+      "group": "Digital & Marketing Analytics",
+      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing", "SEO & Content Performance"]
     }
   ],
   "education": [
     {
       "year": "AUG 2025",
       "degree": "Master of Business Administration (MBA)",
-      "school": "Washington Adventist University, Maryland"
+      "school": "Washington Adventist University · Takoma Park, MD",
+      "activities": "Graduate Assistant | Operations & Logistics | Program Coordination",
+      "highlights": [
+        "Focused on managerial accounting, leadership, analytical decision-making, and data-driven management."
+      ],
+      "skills": ["Strategic Business Analysis", "Data Visualization"],
+      "skillsMore": 14
     },
     {
       "year": "MAY 2022",
-      "degree": "B.S. Business Administration & Management, B.S. Marketing Management",
-      "school": "Union Commonwealth University, Kentucky",
+      "degree": "B.S. Business Administration & Management",
+      "school": "Union Commonwealth University · Barbourville, KY",
+      "activities": "SGA VP of Business Affairs | Managed $30K budget | Scenic Designer | Student-Athlete",
+      "highlights": [
+        "Coursework: Business Strategy, Quantitative Methods, Business Analytics, Operations Management."
+      ],
+      "skills": ["Strategic Business Analysis", "Performance Tracking and Reporting"],
+      "skillsMore": 2,
       "note": "Athletic Scholarship Recipient — NAIA Student-Athlete; balanced a full academic load with varsity athletics and leadership responsibilities."
+    },
+    {
+      "year": "MAY 2022",
+      "degree": "B.S. Marketing / Marketing Management, General",
+      "school": "Union Commonwealth University · Barbourville, KY",
+      "highlights": [
+        "Executed digital marketing campaigns for simulated brand launches, achieving 30% higher engagement through SEO and content optimization.",
+        "Led digital brand identity redesigns, improving consumer perception and engagement metrics."
+      ],
+      "skills": ["Content Strategy", "Marketing Automation (Mailchimp / CRM Tools)"],
+      "skillsMore": 7
     }
   ],
   "certifications": [
     { "name": "Google Business Intelligence Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
     { "name": "Google Data Analytics Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
     { "name": "Google Project Management Certificate", "issuer": "Google / Coursera", "date": "JUL 2025" }
+  ],
+  "badges": [
+    {
+      "name": "Introduction to Foundry & AIP for Enterprise Organizations",
+      "issuer": "Palantir Learn",
+      "date": "APR 2026",
+      "credentialId": "7rcae4ji4wto",
+      "url": "https://verify.skilljar.com/c/7rcae4ji4wto",
+      "description": "Foundational course on Palantir Foundry and AIP, covering ontology-driven data modeling, data integration, model connectivity, and analytics — including building workflows and applications in a centralized platform and operationalizing data with scalable architectures and AI-powered tools to support decision-making.",
+      "topics": ["Ontology Modeling", "Data Integration", "Analytics", "AIP"]
+    },
+    {
+      "name": "Foundry & AIP Builder Foundations",
+      "issuer": "Palantir Learn",
+      "date": "APR 2026",
+      "credentialId": "689fm5osqavg",
+      "url": "https://verify.skilljar.com/c/689fm5osqavg",
+      "description": "Builder Foundations certification with hands-on work building end-to-end data workflows, data integration, and pipeline orchestration in a centralized platform — strengthening data transformation, workflow automation, and analytics with a focus on data consistency, traceability, and decision-making through scalable, structured systems.",
+      "topics": ["Pipeline Orchestration", "Data Transformation", "Workflow Automation", "Traceability"]
+    },
+    {
+      "name": "Deep Dive: Data Analysis in Contour",
+      "issuer": "Palantir Learn",
+      "date": "APR 2026",
+      "credentialId": "ug4a8ac2fpu6",
+      "url": "https://verify.skilljar.com/c/ug4a8ac2fpu6",
+      "description": "Data cleaning, transformation, and visualization within Foundry: built analyses using structured workflows, performed dataset joins, created derived metrics, and developed dashboards — strengthening data manipulation and Contour's expression language for scalable analytics.",
+      "topics": ["Data Cleaning", "Dataset Joins", "Derived Metrics", "Dashboards"]
+    },
+    {
+      "name": "Deep Dive: Data Analysis in Quiver",
+      "issuer": "Palantir Learn",
+      "date": "APR 2026",
+      "credentialId": "f7goxbh2vx9g",
+      "url": "https://verify.skilljar.com/c/f7goxbh2vx9g",
+      "description": "Data preparation, dataset joins, filtering, and transformation workflows — built derived metrics, reusable visual functions, and interactive dashboards, and created visualizations (bar, scatter, Vega) with a focus on structuring analytical workflows, optimizing performance, and delivering operational insight.",
+      "topics": ["Data Preparation", "Visual Functions", "Interactive Dashboards", "Vega"]
+    }
   ],
   "leadership": [
     {

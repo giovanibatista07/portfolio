@@ -14,7 +14,7 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
       <a href="/resume.pdf" target="_blank" rel="noopener" class="btn-outline">Download Résumé</a>
     </div>
     <div class="flex flex-wrap gap-x-6 gap-y-2 mt-7 font-mono text-xs text-inksoft">
-      <a href="tel:{{ site.phoneHref }}" class="hover:text-ink">{{ site.phoneDisplay }}</a>
+      <a href="mailto:{{ site.email }}" class="hover:text-ink">{{ site.email }}</a>
       <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="hover:text-ink">LinkedIn</a>
       <a href="{{ site.social.tableau }}" target="_blank" rel="noopener" class="hover:text-ink">Tableau</a>
       <a href="{{ site.social.kaggle }}" target="_blank" rel="noopener" class="hover:text-ink">Kaggle</a>
@@ -138,7 +138,10 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
       <ul class="space-y-3 text-sm">
         {% for cert in site.certifications %}
         <li class="flex justify-between border-b border-dashed border-line pb-2">
-          <span>{{ cert.name }}</span>
+          <span>
+            {{ cert.name }}
+            {% if cert.issuer %}<span class="block text-xs text-inksoft mt-0.5">{{ cert.issuer }}</span>{% endif %}
+          </span>
           <span class="font-mono text-xs text-inksoft whitespace-nowrap ml-3">{{ cert.date }}</span>
         </li>
         {% endfor %}
@@ -172,10 +175,6 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
       <p class="font-mono text-xs uppercase text-inksoft mb-1">Email</p>
       <p class="text-sm">{{ site.email }}</p>
     </a>
-    <a href="tel:{{ site.phoneHref }}" class="record-card p-5 block hover:border-stamp transition-colors">
-      <p class="font-mono text-xs uppercase text-inksoft mb-1">Phone</p>
-      <p class="text-sm">{{ site.phoneDisplay }}</p>
-    </a>
     <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="record-card p-5 block hover:border-stamp transition-colors">
       <p class="font-mono text-xs uppercase text-inksoft mb-1">LinkedIn</p>
       <p class="text-sm">{{ site.social.linkedinDisplay }}</p>
@@ -183,6 +182,10 @@ description: "Giovani Batista — Business Operations & Analytics professional. 
     <a href="{{ site.social.tableau }}" target="_blank" rel="noopener" class="record-card p-5 block hover:border-stamp transition-colors">
       <p class="font-mono text-xs uppercase text-inksoft mb-1">Tableau Public</p>
       <p class="text-sm">Data visualizations & dashboards</p>
+    </a>
+    <a href="{{ site.social.kaggle }}" target="_blank" rel="noopener" class="record-card p-5 block hover:border-stamp transition-colors">
+      <p class="font-mono text-xs uppercase text-inksoft mb-1">Kaggle</p>
+      <p class="text-sm">Case studies & analytics notebooks</p>
     </a>
   </div>
 

@@ -36,37 +36,37 @@
     { "label": "Focus", "value": "Business Analysis · Operations · Data" }
   ],
   "metrics": [
-    { "num": "45%", "label": "Positive-outcome rate at final-stage interviews" },
+    { "num": "40%+", "label": "Positive-outcome rate at final-stage interviews" },
     { "num": "964%", "label": "Growth in impressions over 3 months" },
     { "num": "$1M+", "label": "Scholarship fund reporting oversight" },
-    { "num": "4,250+", "label": "Prospects in the team-wide pipeline" }
+    { "num": "800+", "label": "Leads engaged across a 5-month campaign" }
   ],
   "experience": [
     {
       "dateStart": "APR 2026",
-      "dateEnd": "PRESENT",
+      "dateEnd": "SEP 2026",
       "title": "Talent Support Advisor",
       "type": "Contract",
       "subtitle": "Pipeline Operations & Lead Qualification · ASM Sports (Sports Talent Management & Consulting), Takoma Park, MD",
       "bullets": [
-        "Executed first-touch outreach across 500+ leads per cycle within a team-wide pipeline of 4,250+ prospects, using a structured 5-touchpoint cadence (call, text, and email) to maximize response rates.",
+        "Executed first-touch outreach across 800+ leads over a 5-month multi-channel campaign (Indeed + LinkedIn), using a structured 5-touchpoint cadence (call, text, and email) to maximize response rates.",
         "Achieved a 30%+ live-connect rate on first-attempt cold outreach, converting roughly 1 in 3 contacts into an active consultation conversation.",
-        "Qualified and booked 85+ consultations per cycle, driving a 45% positive-outcome rate at final-stage interviews through standardized discovery workflows and a repeatable multichannel outreach cadence.",
-        "Allocated ~40% of personally-sourced leads to senior recruiters as sales-ready candidates, directly supporting business development for the Agent Advisory program.",
-        "Maintained CRM-style tracking across 500+ candidate records, ensuring clean pipeline documentation, accurate handoffs to senior recruiters, and full visibility into qualification status and follow-up stages."
+        "Advanced 380+ candidates to final-stage interviews, driving a 40%+ positive-outcome rate through a consistent, repeatable discovery process.",
+        "Qualified and allocated ~40% of personally sourced leads to senior recruiters as sales-ready candidates, directly supporting business development for the Agent Advisory program.",
+        "Maintained CRM-style tracking across 800+ candidate records spanning multiple sourcing channels, keeping handoffs to senior recruiters accurate and giving the team clear visibility into each candidate’s status and next steps."
       ]
     },
     {
       "dateStart": "SEP 2025",
-      "dateEnd": "PRESENT",
+      "dateEnd": "SEP 2026",
       "title": "Digital Operations & Business Strategy Analyst",
       "type": "Contract",
       "subtitle": "PhiloSoccer Academy (Digital Media & Analytics), Takoma Park, MD",
       "bullets": [
-        "Built a centralized digital initiative tracker covering 300+ tasks across content, website, campaigns, and analytics — documenting owners, deadlines, follow-up status, and execution progress to improve operational accountability.",
+        "Built a centralized tracker for 300+ digital marketing initiatives across content, website, and paid campaigns, giving stakeholders real-time visibility into performance and progress.",
         "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by standardizing content planning, refining channel strategy, and increasing posting consistency based on performance data.",
         "Increased Instagram Reels interactions by 104% and saves by 234% by identifying content funnel gaps and reallocating effort toward high-performing formats.",
-        "Analyzed CPC, reach, and campaign performance trends using Meta Insights and Metricool to identify underperforming ads and recommend budget reallocations that improved ROI.",
+        "Developed and tested data-driven hypotheses about content and channel performance using CPC trends, reach data, and engagement patterns from Meta Insights and Metricool to validate assumptions and reallocate ad spend toward higher-performing channels.",
         "Coordinated cross-functional workflows across website, content, analytics, and paid channels — establishing ownership frameworks that reduced task duplication and improved on-time delivery."
       ]
     },
@@ -126,7 +126,7 @@
   "skills": [
     {
       "group": "Data Analysis & Reporting",
-      "items": ["SQL", "Python", "R", "BigQuery", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Power Query", "Data Cleaning", "Dataset Joins", "Derived Metrics"]
+      "items": ["SQL", "Python", "R", "BigQuery", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Power Query", "Google Suite", "Data Cleaning", "Dataset Joins", "Derived Metrics"]
     },
     {
       "group": "Business Intelligence & Visualization",
@@ -138,7 +138,7 @@
     },
     {
       "group": "Operations & Process",
-      "items": ["Pipeline Management", "Workflow Standardization", "Process Improvement", "Sales & Revenue Operations", "CRM Documentation", "Compliance Tracking", "Stakeholder Management"]
+      "items": ["Pipeline Management", "Lead Qualification", "Workflow Standardization", "Process Improvement", "Sales & Revenue Operations", "CRM Documentation", "Compliance Tracking", "Stakeholder Management"]
     },
     {
       "group": "Palantir Foundry Platform",
@@ -146,7 +146,11 @@
     },
     {
       "group": "Digital & Marketing Analytics",
-      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing", "SEO & Content Performance"]
+      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing", "Post-Campaign Analysis", "Customer Acquisition Analytics", "Channel Economics", "SEO & Content Performance"]
+    },
+    {
+      "group": "AI Tools",
+      "items": ["Claude (Anthropic)", "Prompt Engineering"]
     }
   ],
   "education": [
@@ -165,7 +169,7 @@
       "year": "MAY 2022",
       "degree": "B.S. Business Administration & Management",
       "school": "Union Commonwealth University · Barbourville, KY",
-      "activities": "SGA VP of Business Affairs | Managed $30K budget | Scenic Designer | Student-Athlete",
+      "activities": "SGA VP of Business Affairs | Managed $50K+ budget | Scenic Designer | Student-Athlete",
       "highlights": [
         "Coursework: Business Strategy, Quantitative Methods, Business Analytics, Operations Management."
       ],

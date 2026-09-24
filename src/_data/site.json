@@ -1,10 +1,14 @@
 {
   "name": "Giovani Batista",
   "role": "Business Analyst · Operations Analyst · Data Analyst",
-  "location": "Washington DC-Baltimore Area",
+  "location": "Washington DC Metro Area",
   "email": "giovanibatista07@gmail.com",
   "bio": "I turn high-volume, messy inputs — pipelines, budgets, schedules, compliance records — into the dashboards, reports, and standardized workflows leaders actually make decisions with. MBA with hands-on business analysis, operations, and reporting experience.",
-  "targetRoles": ["Business Analyst", "Operations Analyst", "Data Analyst"],
+  "targetRoles": [
+    "Business Analyst",
+    "Operations Analyst",
+    "Data Analyst"
+  ],
   "social": {
     "linkedin": "http://www.linkedin.com/in/giovani-batista",
     "linkedinDisplay": "linkedin.com/in/giovani-batista",
@@ -12,6 +16,22 @@
     "kaggle": "https://www.kaggle.com/code/giovanibatista/cyclistic-case-study-2020-q1"
   },
   "projects": [
+    {
+      "title": "SQL Business Practice Lab (Solstice Outfitters)",
+      "tag": "SQL",
+      "platform": "GitHub Pages",
+      "description": "A browser-based SQLite sandbox for a synthetic retailer (10 stores, 400 customers, 3,000 orders) with 50 business-question tasks across 4 levels.",
+      "url": "https://giovanibatista07.github.io/-sql-practice-lab/",
+      "cta": "Open the lab"
+    },
+    {
+      "title": "Cyclistic Bike-Share Case Study",
+      "tag": "Google Data Analytics Capstone",
+      "platform": "Kaggle",
+      "description": "End-to-end SQL, Excel, and Tableau analysis comparing casual riders and annual members to inform a data-driven membership marketing recommendation.",
+      "url": "https://www.kaggle.com/code/giovanibatista/cyclistic-case-study-2020-q1",
+      "cta": "View on Kaggle"
+    },
     {
       "title": "Tableau Public Portfolio",
       "tag": "Data Visualization",
@@ -21,25 +41,49 @@
       "cta": "View on Tableau Public"
     },
     {
-      "title": "Cyclistic Bike-Share Case Study",
-      "tag": "Google Data Analytics Capstone",
-      "platform": "Kaggle",
-      "description": "An end-to-end SQL, Excel, and Tableau analysis comparing how casual riders and annual members use a bike-share service, built to inform a data-driven marketing recommendation.",
-      "url": "https://www.kaggle.com/code/giovanibatista/cyclistic-case-study-2020-q1",
-      "cta": "View on Kaggle"
+      "title": "Portfolio Website",
+      "tag": "Web Development",
+      "platform": "Netlify",
+      "description": "This personal analytics portfolio, built and deployed with Eleventy, Tailwind CSS, GitHub, and Netlify (CI deploy previews).",
+      "url": "https://giobatlabs.netlify.app",
+      "cta": "View site"
     }
   ],
   "record": [
-    { "label": "Location", "value": "Washington DC-Baltimore Area" },
-    { "label": "Status", "value": "Open to full-time roles" },
-    { "label": "Languages", "value": "English (fluent), Portuguese (native)" },
-    { "label": "Focus", "value": "Business Analysis · Operations · Data" }
+    {
+      "label": "Location",
+      "value": "Washington DC Metro Area"
+    },
+    {
+      "label": "Status",
+      "value": "Open to full-time roles"
+    },
+    {
+      "label": "Languages",
+      "value": "English (Fluent), Portuguese (Native)"
+    },
+    {
+      "label": "Focus",
+      "value": "Business Analysis · Operations · Data"
+    }
   ],
   "metrics": [
-    { "num": "40%+", "label": "Positive-outcome rate at final-stage interviews" },
-    { "num": "964%", "label": "Growth in impressions over 3 months" },
-    { "num": "$1M+", "label": "Scholarship fund reporting oversight" },
-    { "num": "800+", "label": "Leads engaged across a 5-month campaign" }
+    {
+      "num": "40%+",
+      "label": "Positive-outcome rate at final-stage interviews"
+    },
+    {
+      "num": "964%",
+      "label": "Growth in impressions over 3 months"
+    },
+    {
+      "num": "$1M+",
+      "label": "Scholarship fund reporting oversight"
+    },
+    {
+      "num": "800+",
+      "label": "Leads engaged across a 5-month campaign"
+    }
   ],
   "experience": [
     {
@@ -47,13 +91,13 @@
       "dateEnd": "SEP 2026",
       "title": "Talent Support Advisor",
       "type": "Contract",
-      "subtitle": "Pipeline Operations & Lead Qualification · ASM Sports (Sports Talent Management & Consulting), Takoma Park, MD",
+      "subtitle": "Pipeline Operations & Lead Qualification · ASM Sports (Sports Talent Management & Consulting), Remote",
       "bullets": [
         "Executed first-touch outreach across 800+ leads over a 5-month multi-channel campaign (Indeed + LinkedIn), using a structured 5-touchpoint cadence (call, text, and email) to maximize response rates.",
         "Achieved a 30%+ live-connect rate on first-attempt cold outreach, converting roughly 1 in 3 contacts into an active consultation conversation.",
         "Advanced 380+ candidates to final-stage interviews, driving a 40%+ positive-outcome rate through a consistent, repeatable discovery process.",
-        "Qualified and allocated ~40% of personally sourced leads to senior recruiters as sales-ready candidates, directly supporting business development for the Agent Advisory program.",
-        "Maintained CRM-style tracking across 800+ candidate records spanning multiple sourcing channels, keeping handoffs to senior recruiters accurate and giving the team clear visibility into each candidate’s status and next steps."
+        "Qualified and handed off 350+ candidates (43% of total pipeline) to senior closing agents as sales-ready leads, directly supporting business development for the Agent Advisory program.",
+        "Maintained CRM-style tracking across 800+ candidate records spanning multiple sourcing channels, keeping handoffs to senior agents accurate and giving the team clear visibility into each candidate’s status and next steps."
       ]
     },
     {
@@ -64,8 +108,8 @@
       "subtitle": "PhiloSoccer Academy (Digital Media & Analytics), Takoma Park, MD",
       "bullets": [
         "Built a centralized tracker for 300+ digital marketing initiatives across content, website, and paid campaigns, giving stakeholders real-time visibility into performance and progress.",
-        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by standardizing content planning, refining channel strategy, and increasing posting consistency based on performance data.",
-        "Increased Instagram Reels interactions by 104% and saves by 234% by identifying content funnel gaps and reallocating effort toward high-performing formats.",
+        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by refining channel strategy and standardizing the content calendar based on performance data.",
+        "Identified content funnel gaps and reallocated effort toward high-performing formats, increasing Instagram Reels interactions by 104% and saves by 234%.",
         "Developed and tested data-driven hypotheses about content and channel performance using CPC trends, reach data, and engagement patterns from Meta Insights and Metricool to validate assumptions and reallocate ad spend toward higher-performing channels.",
         "Coordinated cross-functional workflows across website, content, analytics, and paid channels — establishing ownership frameworks that reduced task duplication and improved on-time delivery."
       ]
@@ -93,20 +137,18 @@
       "bullets": [
         "Coordinated logistics, scheduling, and stakeholder communication for 30+ campus events per academic year; introduced Excel-based event tracking that improved attendance data access and follow-up consistency.",
         "Managed scheduling, academic coordination, and communication workflows for 50+ student-athletes, serving as the operational liaison between athletics, administration, and student-life departments.",
-        "Implemented Excel tracking systems for student engagement, athletics operations, and event execution that centralized attendance, scheduling, and follow-up data across departments."
+        "Concurrently served as part-time Assistant Men’s Soccer Coach, building performance-tracking frameworks for 40+ student-athletes and supporting recruitment operations."
       ]
     },
     {
       "dateStart": "MAY 2017",
       "dateEnd": "APR 2018",
-      "title": "Accountant Clerk",
+      "title": "Accounting Clerk",
       "type": "Full-time",
-      "subtitle": "Deconto Ltda., Porto Alegre, Brazil",
+      "subtitle": "Ad Assessoria Contabil, Porto Alegre, Brazil",
       "bullets": [
         "Maintained accounting documentation and completed bank reconciliations for 15 client accounts, supporting accurate financial recordkeeping and audit preparation.",
-        "Recorded journal entries and classified expenses to support balance sheet preparation and improve reporting accuracy.",
-        "Supported tax compliance by preparing and uploading revenue documentation through government portals, including FGTS-related records.",
-        "Coordinated with accountants and legal staff to ensure accurate handling of payroll, tax, and compliance documentation."
+        "Supported tax compliance by preparing and uploading revenue documentation through government portals, including FGTS-related records."
       ]
     },
     {
@@ -117,40 +159,74 @@
       "subtitle": "Fiorio & Fachini Ltda., Porto Alegre, Brazil",
       "bullets": [
         "Maintained service consistency for ~65 customers per day by proactively identifying workflow bottlenecks and managing staffing needs.",
-        "Coordinated shift operations across a 4-person team, managing service flow and customer support during peak periods.",
-        "Analyzed point-of-sale patterns to resolve recurring operational inefficiencies and improve transaction throughput.",
-        "Supported local marketing efforts by developing promotional materials and strengthening the business's Google presence to increase neighborhood visibility."
+        "Analyzed point-of-sale patterns to resolve recurring operational inefficiencies and improve transaction throughput."
       ]
     }
   ],
   "skills": [
     {
-      "group": "Data Analysis & Reporting",
-      "items": ["SQL", "Python", "R", "BigQuery", "Excel (VLOOKUP, Pivot Tables, Pivot Charts)", "Power Query", "Google Suite", "Data Cleaning", "Dataset Joins", "Derived Metrics"]
+      "group": "Operations & RevOps",
+      "items": [
+        "Pipeline Management",
+        "Lead Qualification",
+        "Sales Operations",
+        "Funnel Analysis",
+        "Workflow Standardization",
+        "Process Improvement",
+        "CRM Documentation",
+        "Stakeholder Management"
+      ]
     },
     {
-      "group": "Business Intelligence & Visualization",
-      "items": ["Tableau", "Power BI", "Palantir Contour", "Palantir Quiver", "Google Analytics", "Dashboard Design", "KPI Reporting"]
+      "group": "Analytics & Reporting",
+      "items": [
+        "SQL",
+        "Excel (VLOOKUP, Pivot Table, Pivot Chart)",
+        "Tableau",
+        "Power BI",
+        "Python",
+        "R",
+        "BigQuery",
+        "Google Analytics",
+        "Power Query",
+        "Google Suite"
+      ]
     },
     {
-      "group": "Business Analysis",
-      "items": ["Requirements Gathering", "Process Mapping", "Funnel Analysis", "Root-Cause Analysis", "Agile", "Scrum", "Kanban", "Jira", "monday.com"]
+      "group": "Project Management",
+      "items": [
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "Jira",
+        "monday.com"
+      ]
     },
     {
-      "group": "Operations & Process",
-      "items": ["Pipeline Management", "Lead Qualification", "Workflow Standardization", "Process Improvement", "Sales & Revenue Operations", "CRM Documentation", "Compliance Tracking", "Stakeholder Management"]
+      "group": "Data Platforms & AI",
+      "items": [
+        "Palantir Foundry (Contour, Quiver)",
+        "Claude (Anthropic)",
+        "Prompt Engineering"
+      ]
     },
     {
-      "group": "Palantir Foundry Platform",
-      "items": ["Foundry", "AIP", "Ontology-Driven Data Modeling", "Data Integration", "Pipeline Orchestration", "Workflow Automation"]
+      "group": "Digital Analytics",
+      "items": [
+        "Meta Insights",
+        "Metricool",
+        "CPC Analysis",
+        "A/B Testing",
+        "Campaign Performance",
+        "Customer Acquisition Analytics"
+      ]
     },
     {
-      "group": "Digital & Marketing Analytics",
-      "items": ["Meta Insights", "Metricool", "CPC Analysis", "Campaign Performance", "A/B Testing", "Post-Campaign Analysis", "Customer Acquisition Analytics", "Channel Economics", "SEO & Content Performance"]
-    },
-    {
-      "group": "AI Tools",
-      "items": ["Claude (Anthropic)", "Prompt Engineering"]
+      "group": "Languages",
+      "items": [
+        "English (Fluent)",
+        "Portuguese (Native)"
+      ]
     }
   ],
   "education": [
@@ -162,18 +238,24 @@
       "highlights": [
         "Focused on managerial accounting, leadership, analytical decision-making, and data-driven management."
       ],
-      "skills": ["Strategic Business Analysis", "Data Visualization"],
+      "skills": [
+        "Strategic Business Analysis",
+        "Data Visualization"
+      ],
       "skillsMore": 14
     },
     {
       "year": "MAY 2022",
       "degree": "B.S. Business Administration & Management",
       "school": "Union Commonwealth University · Barbourville, KY",
-      "activities": "SGA VP of Business Affairs | Managed $50K+ budget | Scenic Designer | Student-Athlete",
+      "activities": "SGA VP of Business Affairs | Managed $30K annual budget | Scenic Designer | Student-Athlete",
       "highlights": [
         "Coursework: Business Strategy, Quantitative Methods, Business Analytics, Operations Management."
       ],
-      "skills": ["Strategic Business Analysis", "Performance Tracking and Reporting"],
+      "skills": [
+        "Strategic Business Analysis",
+        "Performance Tracking and Reporting"
+      ],
       "skillsMore": 2,
       "note": "Athletic Scholarship Recipient — NAIA Student-Athlete; balanced a full academic load with varsity athletics and leadership responsibilities."
     },
@@ -185,14 +267,56 @@
         "Executed digital marketing campaigns for simulated brand launches, achieving 30% higher engagement through SEO and content optimization.",
         "Led digital brand identity redesigns, improving consumer perception and engagement metrics."
       ],
-      "skills": ["Content Strategy", "Marketing Automation (Mailchimp / CRM Tools)"],
+      "skills": [
+        "Content Strategy",
+        "Marketing Automation (Mailchimp / CRM Tools)"
+      ],
       "skillsMore": 7
     }
   ],
   "certifications": [
-    { "name": "Google Business Intelligence Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
-    { "name": "Google Data Analytics Certificate", "issuer": "Google / Coursera", "date": "FEB 2026" },
-    { "name": "Google Project Management Certificate", "issuer": "Google / Coursera", "date": "JUL 2025" }
+    {
+      "name": "Google Business Intelligence Certificate",
+      "issuer": "Google / Coursera",
+      "date": "FEB 2026",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/certificate/Y49K6JU2KH4J",
+      "credentialId": "Y49K6JU2KH4J",
+      "description": "Professional certificate covering the full BI workflow: gathering stakeholder requirements, designing data models and ETL pipelines, and building dashboards and reports in Tableau and BigQuery that track KPIs and support business decisions.",
+      "topics": [
+        "Data Modeling",
+        "ETL Pipelines",
+        "Dashboards",
+        "KPI Reporting"
+      ]
+    },
+    {
+      "name": "Google Data Analytics Certificate",
+      "issuer": "Google / Coursera",
+      "date": "FEB 2026",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/certificate/VNUWXRQF3P7Q",
+      "credentialId": "VNUWXRQF3P7Q",
+      "description": "Professional certificate covering the full data analysis process (ask, prepare, process, analyze, share, act): cleaning and analyzing data with spreadsheets, SQL, and R, and presenting findings with Tableau visualizations. Finished with the Cyclistic bike-share capstone case study.",
+      "topics": [
+        "SQL",
+        "Data Cleaning",
+        "R Programming",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Google Project Management Certificate",
+      "issuer": "Google / Coursera",
+      "date": "JUL 2025",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/Z1X1HHP4QZ3M",
+      "credentialId": "Z1X1HHP4QZ3M",
+      "description": "Professional certificate covering the project life cycle from start to finish: setting scope and goals, building schedules and budgets, managing risk and stakeholders, and running projects with both traditional (Waterfall) and Agile/Scrum methods.",
+      "topics": [
+        "Project Planning",
+        "Risk Management",
+        "Stakeholder Management",
+        "Agile & Scrum"
+      ]
+    }
   ],
   "badges": [
     {
@@ -202,7 +326,12 @@
       "credentialId": "7rcae4ji4wto",
       "url": "https://verify.skilljar.com/c/7rcae4ji4wto",
       "description": "Foundational course on Palantir Foundry and AIP, covering ontology-driven data modeling, data integration, model connectivity, and analytics — including building workflows and applications in a centralized platform and operationalizing data with scalable architectures and AI-powered tools to support decision-making.",
-      "topics": ["Ontology Modeling", "Data Integration", "Analytics", "AIP"]
+      "topics": [
+        "Ontology Modeling",
+        "Data Integration",
+        "Analytics",
+        "AIP"
+      ]
     },
     {
       "name": "Foundry & AIP Builder Foundations",
@@ -211,7 +340,12 @@
       "credentialId": "689fm5osqavg",
       "url": "https://verify.skilljar.com/c/689fm5osqavg",
       "description": "Builder Foundations certification with hands-on work building end-to-end data workflows, data integration, and pipeline orchestration in a centralized platform — strengthening data transformation, workflow automation, and analytics with a focus on data consistency, traceability, and decision-making through scalable, structured systems.",
-      "topics": ["Pipeline Orchestration", "Data Transformation", "Workflow Automation", "Traceability"]
+      "topics": [
+        "Pipeline Orchestration",
+        "Data Transformation",
+        "Workflow Automation",
+        "Traceability"
+      ]
     },
     {
       "name": "Deep Dive: Data Analysis in Contour",
@@ -220,7 +354,12 @@
       "credentialId": "ug4a8ac2fpu6",
       "url": "https://verify.skilljar.com/c/ug4a8ac2fpu6",
       "description": "Data cleaning, transformation, and visualization within Foundry: built analyses using structured workflows, performed dataset joins, created derived metrics, and developed dashboards — strengthening data manipulation and Contour's expression language for scalable analytics.",
-      "topics": ["Data Cleaning", "Dataset Joins", "Derived Metrics", "Dashboards"]
+      "topics": [
+        "Data Cleaning",
+        "Dataset Joins",
+        "Derived Metrics",
+        "Dashboards"
+      ]
     },
     {
       "name": "Deep Dive: Data Analysis in Quiver",
@@ -229,18 +368,28 @@
       "credentialId": "f7goxbh2vx9g",
       "url": "https://verify.skilljar.com/c/f7goxbh2vx9g",
       "description": "Data preparation, dataset joins, filtering, and transformation workflows — built derived metrics, reusable visual functions, and interactive dashboards, and created visualizations (bar, scatter, Vega) with a focus on structuring analytical workflows, optimizing performance, and delivering operational insight.",
-      "topics": ["Data Preparation", "Visual Functions", "Interactive Dashboards", "Vega"]
+      "topics": [
+        "Data Preparation",
+        "Visual Functions",
+        "Interactive Dashboards",
+        "Vega"
+      ]
     }
   ],
   "leadership": [
     {
+      "title": "Soccer Coach",
+      "subtitle": "Coffeyville Community College (Coffeyville, KS) & Washington Adventist University (Takoma Park, MD), USA · 2022–2025",
+      "description": "Supported training, match preparation, and player development for college men's soccer programs, building performance-tracking frameworks for 80+ student-athletes. Assisted with recruitment operations, scheduling, and communication between players, coaching staff, athletics administration, and school stakeholders."
+    },
+    {
       "title": "VP of Business Affairs",
-      "subtitle": "Student Government Association, Union Commonwealth University · 2020–2022",
-      "description": "Oversaw a $50,000+ student organization budget for a ~1,300-person student body, managing funding requests, financial reporting, and resource allocation across 20+ chartered organizations and 20+ events. Led cross-functional coordination between student clubs, academic departments, and university administration, improving communication workflows and funding approval timelines."
+      "subtitle": "Student Government Association, Union Commonwealth University · 2021–2022",
+      "description": "Managed a $30,000 annual budget, funding requests, and financial reporting for 20+ student organizations. Coordinated student clubs, academic departments, and administration to speed funding approvals."
     },
     {
       "title": "Professional Soccer Player",
-      "subtitle": "Associação Nova Prata, Brazil",
+      "subtitle": "Associação Nova Prata, Brazil · 2015–2016",
       "description": "Developed discipline, teamwork, and leadership under high-performance conditions before pursuing higher education in the United States."
     }
   ]

@@ -1,13 +1,13 @@
 {
   "name": "Giovani Batista",
-  "role": "Business Analyst · Operations Analyst · Data Analyst",
+  "role": "Associate Product Manager · Product Operations",
   "location": "Washington DC Metro Area",
   "email": "giovanibatista07@gmail.com",
-  "bio": "I turn high-volume, messy inputs — pipelines, budgets, schedules, compliance records — into the dashboards, reports, and standardized workflows leaders actually make decisions with. MBA with hands-on business analysis, operations, and reporting experience.",
+  "bio": "MBA with four years in operations, growth and analytics across sports and education organizations. My approach: start with the customer, define the metric that matters, and use data to decide what to build, keep or retire.",
   "targetRoles": [
-    "Business Analyst",
-    "Operations Analyst",
-    "Data Analyst"
+    "Associate Product Manager",
+    "Product Manager",
+    "Product Operations"
   ],
   "social": {
     "linkedin": "http://www.linkedin.com/in/giovani-batista",
@@ -17,10 +17,18 @@
   },
   "projects": [
     {
-      "title": "SQL Business Practice Lab (Solstice Outfitters)",
-      "tag": "SQL",
+      "title": "PMP Critical Path",
+      "tag": "Product Spec · AI-Assisted Build",
       "platform": "GitHub Pages",
-      "description": "A browser-based SQLite sandbox for a synthetic retailer (10 stores, 400 customers, 3,000 orders) with 50 business-question tasks across 4 levels.",
+      "description": "Wrote the product spec (user scenarios, functional and non-functional requirements, data schema, QA checklist, roadmap) and built a free PMP exam-prep web app using AI-assisted development. 600 original questions mapped to all 26 tasks of the 2026 exam outline, 9 case studies, a timed exam simulation and spaced review, with every question checked by an automated build script.",
+      "url": "https://giovanibatista07.github.io/pmp-critical-path/",
+      "cta": "Open the app"
+    },
+    {
+      "title": "SQL Business Practice Lab (Solstice Outfitters)",
+      "tag": "MVP · SQL",
+      "platform": "GitHub Pages",
+      "description": "Designed and shipped an MVP of a browser-based SQLite sandbox, built with Claude, for a synthetic retailer (10 stores, 400 customers, 3,000 orders) with 50 business-question tasks across 4 levels — then gathered feedback from early users.",
       "url": "https://giovanibatista07.github.io/-sql-practice-lab/",
       "cta": "Open the lab"
     },
@@ -59,30 +67,34 @@
       "value": "Open to full-time roles"
     },
     {
-      "label": "Languages",
-      "value": "English (Fluent), Portuguese (Native)"
+      "label": "Focus",
+      "value": "Product · Growth · Analytics"
     },
     {
-      "label": "Focus",
-      "value": "Business Analysis · Operations · Data"
+      "label": "Interests",
+      "value": "Sports Tech · EdTech"
+    },
+    {
+      "label": "Languages",
+      "value": "English (Fluent), Portuguese (Native)"
     }
   ],
   "metrics": [
     {
-      "num": "40%+",
-      "label": "Positive-outcome rate at final-stage interviews"
+      "num": "350+",
+      "label": "Sales-ready leads qualified (43% of the funnel)"
     },
     {
-      "num": "964%",
-      "label": "Growth in impressions over 3 months"
+      "num": "333K",
+      "label": "Instagram views from a channel relaunch"
+    },
+    {
+      "num": "2×",
+      "label": "Reels engagement after data-driven iteration"
     },
     {
       "num": "$1M+",
-      "label": "Scholarship fund reporting oversight"
-    },
-    {
-      "num": "800+",
-      "label": "Leads engaged across a 5-month campaign"
+      "label": "Scholarship budget coordinated cross-functionally"
     }
   ],
   "experience": [
@@ -91,53 +103,59 @@
       "dateEnd": "SEP 2026",
       "title": "Talent Support Advisor",
       "type": "Contract",
-      "subtitle": "Pipeline Operations & Lead Qualification · ASM Sports (Sports Talent Management & Consulting), Remote",
+      "subtitle": "Customer Discovery & Funnel Qualification · ASM Sports (Sports Talent Management & Consulting), Remote",
+      "context": "ASM Sports sells an annual membership (~$2,500/yr) that lets professionals operate as independent sports agents. As one of five to six advisors on the Agent Advisory team, I was the first point of contact for applicants, qualified them, and handed sales-ready leads to senior closing agents.",
       "bullets": [
-        "Executed first-touch outreach across 800+ leads over a 5-month multi-channel campaign (Indeed + LinkedIn), using a structured 5-touchpoint cadence (call, text, and email) to maximize response rates.",
-        "Achieved a 30%+ live-connect rate on first-attempt cold outreach, converting roughly 1 in 3 contacts into an active consultation conversation.",
-        "Advanced 380+ candidates to final-stage interviews, driving a 40%+ positive-outcome rate through a consistent, repeatable discovery process.",
-        "Qualified and handed off 350+ candidates (43% of total pipeline) to senior closing agents as sales-ready leads, directly supporting business development for the Agent Advisory program.",
-        "Maintained CRM-style tracking across 800+ candidate records spanning multiple sourcing channels, keeping handoffs to senior agents accurate and giving the team clear visibility into each candidate’s status and next steps."
-      ]
+        "Synthesized feedback from hundreds of customer conversations into a buyer profile (coaches and sports-business owners seeking flexible, supplemental income) and formalized it into four segmentation and qualification criteria: sales background, sports experience, entrepreneurial drive and business acumen.",
+        "Performed root cause analysis on recurring objections (cost, commission-based compensation, household approval), traced them to expectations set before the first conversation, addressed program terms earlier in calls, and recommended clearer upfront communication.",
+        "Managed an 800+ applicant inbound funnel from LinkedIn and Indeed over a five-month campaign using a structured five-step call, text and email sequence, achieving a 31% first-attempt connect rate.",
+        "Conducted 380+ final-stage qualification interviews and converted 350+ applicants (43% of the funnel) into sales-ready leads for seven senior closing agents.",
+        "Added qualification fields to the team's lead tracker and used AI-generated meeting summaries (Granola) to brief closing agents on each lead's background, needs and objections before handoff."
+      ],
+      "tools": "Lead tracker · Granola · LinkedIn · Indeed"
     },
     {
       "dateStart": "SEP 2025",
       "dateEnd": "SEP 2026",
       "title": "Digital Operations & Business Strategy Analyst",
       "type": "Contract",
-      "subtitle": "PhiloSoccer Academy (Digital Media & Analytics), Takoma Park, MD",
+      "subtitle": "Product Launch & Go-to-Market · PhiloSoccer Academy, Washington DC Area",
+      "context": "A private soccer-training academy offering private sessions, group training and summer camps in partnership with Nike. I owned the academy's digital go-to-market end to end, working directly with the founder and an external videographer.",
       "bullets": [
-        "Built a centralized tracker for 300+ digital marketing initiatives across content, website, and paid campaigns, giving stakeholders real-time visibility into performance and progress.",
-        "Drove a 964% increase in impressions and 867% growth in engagement over 3 months by refining channel strategy and standardizing the content calendar based on performance data.",
-        "Identified content funnel gaps and reallocated effort toward high-performing formats, increasing Instagram Reels interactions by 104% and saves by 234%.",
-        "Developed and tested data-driven hypotheses about content and channel performance using CPC trends, reach data, and engagement patterns from Meta Insights and Metricool to validate assumptions and reallocate ad spend toward higher-performing channels.",
-        "Coordinated cross-functional workflows across website, content, analytics, and paid channels — establishing ownership frameworks that reduced task duplication and improved on-time delivery."
-      ]
+        "Defined the scope for and rebuilt the foundation in the first month: a new visual identity, a redesigned Squarespace website and booking form, Canva templates, and a content calendar in Metricool.",
+        "Relaunched the academy's inactive Instagram and Facebook channels in October 2025; daily Instagram views rose from near zero to 5,000–8,000 within two weeks, reaching 333K views and 29% follower growth (to ~8,000) by January 2026.",
+        "Built a biweekly KPI report for the founder ranking posts and content formats by reach and engagement, used to prioritize what to repeat and what to retire — iterating toward short tactical-coaching Reels doubled Reels interactions (+104%) and increased saves by 234%.",
+        "Recommended top-performing content for owner-approved paid promotion targeted to the DC–Maryland–Virginia area, reaching 83K people, and ran search-intent research and competitive benchmarking of nearby academies to restructure website content.",
+        "Launched a 15+ email campaign for the Summer 2026 PhiloSoccer × Nike camps; Instagram generated most of the ~15 new family inquiries received during this period."
+      ],
+      "tools": "Squarespace · Metricool · Canva · Meta Insights · Excel"
     },
     {
       "dateStart": "AUG 2023",
-      "dateEnd": "AUG 2025",
+      "dateEnd": "JUL 2025",
       "title": "Graduate Assistant",
       "type": "Part-time",
       "subtitle": "Athletics Operations & Project Coordination · Washington Adventist University, Takoma Park, MD",
+      "context": "Member of the men's soccer coaching staff, combining on-field coaching with program operations. Reported to the Director of Recruitment within the Department of Athletics.",
       "bullets": [
-        "Supported reporting and compliance workflows for a $1M+ athletic scholarship fund by standardizing documentation, tracking approval stages, and maintaining real-time visibility into open items for athletics administrators.",
-        "Built 6+ Excel-based operational trackers for expenses, scholarship approvals, athlete performance, scheduling, and compliance — centralizing data previously managed across disconnected spreadsheets and email threads.",
-        "Prepared weekly academic, performance, and compliance reports for 60+ student-athletes by consolidating data from multiple sources, reducing manual consolidation time by an estimated 40%.",
-        "Managed end-to-end logistics for 15+ program trips involving 20+ stakeholders — overseeing scheduling, documentation, budget tracking, and expense approvals with zero compliance violations.",
-        "Standardized 5+ recurring reporting workflows and built open-item trackers and documentation templates that reduced manual follow-up and improved cross-team coordination."
-      ]
+        "Supported the head coach in managing a $1M+ scholarship budget covering ~40 student-athletes over two seasons — preparing award requests, tracking remaining funds, and coordinating approvals across the VP of Finance, accounting, the recruitment office and athletics leadership.",
+        "Built a player-development tracker in Excel (team overview plus an individual sheet for each of 40+ players) tracking academic standing, attendance, minutes played and fitness, used for weekly staff reporting and biweekly one-on-ones.",
+        "Led the program for more than two weeks during the head coach's absence, keeping players, families and the athletic director aligned; the team went 3–0 during this period.",
+        "Coordinated logistics for 10+ away trips and game-day operations across two seasons, on schedule and within budget, with no compliance violations."
+      ],
+      "tools": "Microsoft Excel"
     },
     {
-      "dateStart": "JUL 2022",
-      "dateEnd": "MAY 2023",
-      "title": "Student Life Manager",
+      "dateStart": "AUG 2022",
+      "dateEnd": "JUL 2023",
+      "title": "Student Life Manager & Assistant Soccer Coach",
       "type": "Full-time",
       "subtitle": "Program & Operations Coordination · Coffeyville Community College, Coffeyville, KS",
+      "context": "One of six Student Life Managers, reporting to the Director of Student Life, held concurrently with an assistant coaching role for a 50+ player men's soccer program.",
       "bullets": [
-        "Coordinated logistics, scheduling, and stakeholder communication for 30+ campus events per academic year; introduced Excel-based event tracking that improved attendance data access and follow-up consistency.",
-        "Managed scheduling, academic coordination, and communication workflows for 50+ student-athletes, serving as the operational liaison between athletics, administration, and student-life departments.",
-        "Concurrently served as part-time Assistant Men’s Soccer Coach, building performance-tracking frameworks for 40+ student-athletes and supporting recruitment operations."
+        "Planned and executed 30+ campus and community events — holiday programming and football and basketball game days — each attended by 200–300 people.",
+        "Coached the A and B teams, monitored player performance to support development decisions, and supported recruitment of new student-athletes through promotion and outreach.",
+        "Supervised residential students during overnight shifts and documented student-conduct matters in accordance with college policy."
       ]
     },
     {
@@ -145,10 +163,10 @@
       "dateEnd": "APR 2018",
       "title": "Accounting Clerk",
       "type": "Full-time",
-      "subtitle": "Ad Assessoria Contabil, Porto Alegre, Brazil",
+      "subtitle": "Financial Operations & Reconciliation · Ad Assessoria Contabil, Porto Alegre, Brazil",
       "bullets": [
-        "Maintained accounting documentation and completed bank reconciliations for 15 client accounts, supporting accurate financial recordkeeping and audit preparation.",
-        "Supported tax compliance by preparing and uploading revenue documentation through government portals, including FGTS-related records."
+        "Maintained bookkeeping and completed bank reconciliations for 15 client accounts, recording journal entries and classifying expenses supporting client financial statements.",
+        "Prepared tax and FGTS payroll filings through Brazilian government portals and delivered client documentation."
       ]
     },
     {
@@ -156,45 +174,35 @@
       "dateEnd": "APR 2017",
       "title": "Assistant Operations Manager",
       "type": "Full-time",
-      "subtitle": "Fiorio & Fachini Ltda., Porto Alegre, Brazil",
+      "subtitle": "Fiorio & Fachini Ltda. (Restaurant), Porto Alegre, Brazil",
       "bullets": [
-        "Maintained service consistency for ~65 customers per day by proactively identifying workflow bottlenecks and managing staffing needs.",
-        "Analyzed point-of-sale patterns to resolve recurring operational inefficiencies and improve transaction throughput."
+        "Digitized sales and inventory records for a ~65-guest weekday lunch service, replacing paper-based tracking with spreadsheets.",
+        "Led the restaurant's rebranding and evaluated vendors for interior and exterior renovations, selecting them based on quality and cost."
       ]
     }
   ],
   "skills": [
     {
-      "group": "Operations & RevOps",
+      "group": "Product",
       "items": [
-        "Pipeline Management",
-        "Lead Qualification",
-        "Sales Operations",
-        "Funnel Analysis",
-        "Workflow Standardization",
-        "Process Improvement",
-        "CRM Documentation",
-        "Stakeholder Management"
+        "Customer Discovery",
+        "User Research",
+        "Customer Segmentation",
+        "Product Specs & Requirements",
+        "KPIs & Success Metrics",
+        "Prioritization",
+        "Go-to-Market",
+        "Product Launch",
+        "Root Cause Analysis",
+        "QA Checklists",
+        "Roadmapping"
       ]
     },
     {
-      "group": "Analytics & Reporting",
+      "group": "Collaboration & Delivery",
       "items": [
-        "SQL",
-        "Excel (VLOOKUP, Pivot Table, Pivot Chart)",
-        "Tableau",
-        "Power BI",
-        "Python",
-        "R",
-        "BigQuery",
-        "Google Analytics",
-        "Power Query",
-        "Google Suite"
-      ]
-    },
-    {
-      "group": "Project Management",
-      "items": [
+        "Cross-Functional Collaboration",
+        "Stakeholder Management",
         "Agile",
         "Scrum",
         "Kanban",
@@ -203,22 +211,38 @@
       ]
     },
     {
-      "group": "Data Platforms & AI",
+      "group": "Data & Analytics",
       "items": [
+        "SQL",
+        "BigQuery",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Python",
+        "R",
         "Palantir Foundry (Contour, Quiver)",
-        "Claude (Anthropic)",
-        "Prompt Engineering"
+        "Google Analytics"
       ]
     },
     {
-      "group": "Digital Analytics",
+      "group": "AI & Prototyping",
+      "items": [
+        "AI-Assisted Prototyping",
+        "Claude (Anthropic)",
+        "Prompt Engineering",
+        "Granola"
+      ]
+    },
+    {
+      "group": "Growth & Digital",
       "items": [
         "Meta Insights",
         "Metricool",
-        "CPC Analysis",
+        "Squarespace",
+        "Canva",
+        "Email Campaigns",
         "A/B Testing",
-        "Campaign Performance",
-        "Customer Acquisition Analytics"
+        "Competitive Benchmarking"
       ]
     },
     {
@@ -276,6 +300,20 @@
   ],
   "certifications": [
     {
+      "name": "Google Project Management Certificate",
+      "issuer": "Google / Coursera",
+      "date": "JUL 2025",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/Z1X1HHP4QZ3M",
+      "credentialId": "Z1X1HHP4QZ3M",
+      "description": "Professional certificate covering the project life cycle from start to finish: setting scope and goals, building schedules and budgets, managing risk and stakeholders, and running projects with both traditional (Waterfall) and Agile/Scrum methods.",
+      "topics": [
+        "Project Planning",
+        "Risk Management",
+        "Stakeholder Management",
+        "Agile & Scrum"
+      ]
+    },
+    {
       "name": "Google Business Intelligence Certificate",
       "issuer": "Google / Coursera",
       "date": "FEB 2026",
@@ -301,20 +339,6 @@
         "Data Cleaning",
         "R Programming",
         "Tableau"
-      ]
-    },
-    {
-      "name": "Google Project Management Certificate",
-      "issuer": "Google / Coursera",
-      "date": "JUL 2025",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/Z1X1HHP4QZ3M",
-      "credentialId": "Z1X1HHP4QZ3M",
-      "description": "Professional certificate covering the project life cycle from start to finish: setting scope and goals, building schedules and budgets, managing risk and stakeholders, and running projects with both traditional (Waterfall) and Agile/Scrum methods.",
-      "topics": [
-        "Project Planning",
-        "Risk Management",
-        "Stakeholder Management",
-        "Agile & Scrum"
       ]
     }
   ],
@@ -378,19 +402,42 @@
   ],
   "leadership": [
     {
-      "title": "Soccer Coach",
-      "subtitle": "Coffeyville Community College (Coffeyville, KS) & Washington Adventist University (Takoma Park, MD), USA · 2022–2025",
-      "description": "Supported training, match preparation, and player development for college men's soccer programs, building performance-tracking frameworks for 80+ student-athletes. Assisted with recruitment operations, scheduling, and communication between players, coaching staff, athletics administration, and school stakeholders."
-    },
-    {
       "title": "VP of Business Affairs",
       "subtitle": "Student Government Association, Union Commonwealth University · 2021–2022",
-      "description": "Managed a $30,000 annual budget, funding requests, and financial reporting for 20+ student organizations. Coordinated student clubs, academic departments, and administration to speed funding approvals."
+      "description": "Managed a $30,000 annual budget and funding requests for 15 student organizations, secured the association's university funding, and took part in vendor evaluation for campus renovations — the board selected a bid ~12% below competing proposals."
+    },
+    {
+      "title": "Scenic Designer",
+      "subtitle": "Union Commonwealth University Theatre · 2020–2022",
+      "description": "Designed and built sets for three to four productions with cross-functional crews of ~15, delivering each against a fixed opening-night deadline."
+    },
+    {
+      "title": "Soccer Coach",
+      "subtitle": "Coffeyville Community College & Washington Adventist University · 2022–2025",
+      "description": "Supported training, match preparation, player development and recruitment for college men's soccer programs, and led the WAU program for two-plus weeks during the head coach's absence (3–0)."
     },
     {
       "title": "Professional Soccer Player",
       "subtitle": "Associação Nova Prata, Brazil · 2015–2016",
-      "description": "Developed discipline, teamwork, and leadership under high-performance conditions before pursuing higher education in the United States."
+      "description": "Competed at the professional level in Brazil before moving to the United States as an NAIA scholarship student-athlete."
+    }
+  ],
+  "approach": [
+    {
+      "label": "Customer discovery & segmentation",
+      "text": "Ran 380+ qualification interviews for a subscription membership, synthesized recurring feedback into a buyer profile, and turned it into criteria that delivered 350+ sales-ready leads (43% of the pipeline)."
+    },
+    {
+      "label": "Go-to-market & iteration",
+      "text": "Owned an academy's digital relaunch end to end — brand, website, content, email and KPI reporting — reaching 333K Instagram views, with a biweekly performance review that doubled Reels engagement."
+    },
+    {
+      "label": "Cross-functional stakeholders",
+      "text": "Coordinated a $1M+ scholarship budget across finance, accounting, recruitment and athletics leadership, and built the KPI tracker the coaching staff used for weekly reporting."
+    },
+    {
+      "label": "AI-assisted prototyping",
+      "text": "Wrote product specs and shipped two browser-based learning tools built with Claude — a SQL practice lab and a 600-question PMP exam-prep app — and gathered feedback from early users."
     }
   ]
 }
